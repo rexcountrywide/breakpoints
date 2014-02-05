@@ -32,7 +32,7 @@ Added `up` and `down` properties to the event. See below.
 		...
 	});
 	
-	$(window).bind('exitBreakpoint320',function(e) {
+	$(window).bind('exitBreakpoint480',function(e) {
 		if (e.up) {
 			// going up
 		}
